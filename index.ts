@@ -1,5 +1,3 @@
-import http from "http";
-import "dotenv/config";
+import cmd from "./command"
 
-
-http.request("");
+if (require.main === module) cmd.execute(...process.argv);

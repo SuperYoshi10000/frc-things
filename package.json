@@ -9,9 +9,13 @@
   "license": "GPL-3.0",
   "description": "",
   "devDependencies": {
-    "@types/node": "^22.13.5"
+    "@types/node": "^22.13.5",
+    "@types/prompt-sync": "^4.2.3"
   },
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "@types/express": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prompt-sync": "^4.2.0"
   }
 }

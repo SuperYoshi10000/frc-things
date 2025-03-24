@@ -1,0 +1,18 @@
+#frc-schedule {
+    border: 1px solid black;
+}
+#frc-schedule thead tr {
+    border-bottom: 2px solid black;
+}
+#frc-schedule tbody tr {
+    border-bottom: 1px dashed gray;
+}
+#frc-schedule th{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#frc-schedule td {
+    padding: 3px;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+#frc-schedule {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 800px;
+}
+#frc-schedule * {
+    box-sizing: border-box;
+}
+
+#frc-schedule thead tr {
+    border-bottom: 2px solid black;
+}
+#frc-schedule tbody tr {
+    border-bottom: 1px dashed gray;
+}
+
+
+#frc-schedule th {
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+}
+#frc-schedule td {
+    padding: 3px 10px;
+
+    text-align: center;
+}
+#frc-schedule td:not(:last-child) {
+    border-right: 1px solid gray;
+}
+
+.v-match-number {
+    width: 10%;
+}
+.v-description {
+    width: 13%;
+}
+.v-level {
+    width: 10%;
+}
+.v-start-time {
+    width: 15%;
+}
+.v-field {
+    width: 10%;
+}
+
+.v-red1, .v-red2, .v-red3, .v-blue1, .v-blue2, .v-blue3 {
+    width: 7%;
+}
+
+.v-red1, .v-red2, .v-red3 {
+    background-color: #ffcccc;
+}
+.v-blue1, .v-blue2, .v-blue3 {
+    background-color: #ccccff;
+}
